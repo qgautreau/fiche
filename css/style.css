@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    background-image: url("/home/quentin/code/fiche/images/texture-fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    border: 0.25em solid red;
+    padding: 0.5em;
+    margin:0.5em;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+li {
+    color: red;
+    background-color: lightblue;
+}
+li.gps a { text-decoration: none;
+
+}
+label {
+    color: black;
+label.adresse {
+    font-weight: bold;
+}
+label.identité {
+    font-weight: bold;
+}
+label.naissance {
+    font-weight: bold;
+}
+label.hobbies {
+    font-weight: bold;
+}
+a {
+    font-weight: bold;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: red;
+}
