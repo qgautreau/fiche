@@ -1,0 +1,47 @@
+div {
+    border-radius: 5px;
+}
+
+#header {
+    height: 250px;
+    width: 88%;
+    background-color: #F4EBC3;
+    float: left;
+}
+label {
+    color: black;
+}
+label.adresse {
+    font-weight: bold;
+}
+label.identité {
+    font-weight: bold;
+}
+label.naissance {
+    font-weight: bold;
+}
+label.hobbies {
+    font-weight: bold;
+}
+p.formation {
+    font-weight: bold;
+}
+p.compétences {
+    font-weight: bold;
+}
+
+
+
+.left {
+    height: 400px;
+    width: 88%;
+    background-color: lightblue;
+    float: left;
+}
+#footer {
+    height: 100px;
+    width: 50%;
+    background-color: #668284;
+    clear: both;
+    display: inline-block;
+}
