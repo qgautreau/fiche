@@ -1,47 +1,51 @@
-div {
-    border-radius: 5px;
-}
 
-#header {
-    height: 250px;
+
+.header {
+    height: 65%;
     width: 88%;
     background-color: #F4EBC3;
     float: left;
 }
-label {
-    color: black;
+
+#h1 {
+    text-align: center;
 }
-label.adresse {
-    font-weight: bold;
+.nom {
+    padding:0.5em;
+    display: inline;
 }
-label.identité {
-    font-weight: bold;
-}
-label.naissance {
-    font-weight: bold;
-}
-label.hobbies {
-    font-weight: bold;
-}
-p.formation {
-    font-weight: bold;
-}
-p.compétences {
-    font-weight: bold;
+.nav li{
+    display: inline-block;
 }
 
-
-
-.left {
-    height: 400px;
-    width: 88%;
-    background-color: lightblue;
-    float: left;
+.main {
+    height: 70%;
+    display:inline-block;
 }
-#footer {
-    height: 100px;
-    width: 50%;
-    background-color: #668284;
-    clear: both;
+
+#moi {
+    padding:0.5em;
+}
+
+#bio {
+    padding:0.5em;
+}
+
+#objectifs {
+    padding:0.5em;
+}
+
+#projets {
+    padding:0.5em;
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+    display: inline;
+}
+
+#contact h5 h6 {
+    padding:0.5em;
     display: inline-block;
 }
