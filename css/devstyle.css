@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(185, 200, 94)
+    background-color: rgba(45, 150, 100, 0.65);
 }
 
 .header {
@@ -23,8 +23,19 @@ nav li {
     border:2px solid #ccc;
     border-width:1px 0;
     padding: 1em;
-    background-color: rgb(198, 24, 24);
     list-style:none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
 }
 
 h1 {
@@ -68,10 +79,22 @@ footer {
 #contact {
     padding:0.5em;
     display: inline;
-
 }
 
 #contact section {
     display: inline-block;
     width: 49%;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
