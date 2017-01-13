@@ -90,6 +90,21 @@ footer {
     text-align: center;
 }
 
+label {
+    display: block;
+    margin: 1em;
+}
+
+input {
+    width: 20em;
+}
+
+form {
+    width: 20em;
+    height: 30em;
+}
+
+
 a:visited {
     text-decoration: none;
     color: black;
